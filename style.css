@@ -6,7 +6,7 @@
 
 body {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-image: url("todo-bg.jpg");
+    /* background-imsage: url("todo-bg.jpg"); */
 }
 
 .container {
@@ -17,7 +17,6 @@ body {
     height: auto;
     min-height: 90vh;
     border-radius: 50px;
-    background-color: #fff;
 }
 
 .todo-header img {
@@ -30,7 +29,6 @@ form input {
     width: 100%;
     padding: 8px 15px;
     margin: 8px 0;
-    /* border-radius: 50px; */
     display: inline-block;
     border: 2px solid #888888;
     background-color: transparent;
@@ -43,7 +41,7 @@ form input[type=submit], form input[type=button] {
     color: #fff;
     border: none;
     font-size: 15px;
-    width: 100px;
+    width: 100%;
     margin: inherit auto;
     cursor: pointer;
     border-radius: 30px;
